@@ -1,0 +1,22 @@
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.o
+
+# Virtual environment
+venv/
+.env
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+
+# Output Files (Crucial: Do not commit large compressed videos!)
+*_compressed.mp4
+*_compressed.mov
+*_compressed.webm
+*.log
